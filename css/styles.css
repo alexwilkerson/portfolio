@@ -140,4 +140,11 @@ footer {
         margin-left: auto;
     }
     
+    .square-img {
+        width: 340px;
+    }
+    
+    .thumbnail {
+        width: 340px;
+    }
 }
