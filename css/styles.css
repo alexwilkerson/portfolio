@@ -13,14 +13,12 @@ line-height: 1.6em;
 }
 
 h2 {
+    margin-top: -30px;
+    padding-top: 30px;
   text-align: right;
   margin-bottom: 0;
   padding-bottom: 0.3em;
   position: relative;
-}
-
-.about-header {
-
 }
 
 .h2-asterisk {
@@ -40,7 +38,7 @@ p {
 
 header {
   margin: 0 auto 70px auto;
-    padding-top: 90px;
+    padding-top: 40px;
     padding-right: 5%;
     padding-left: 5%;
 }
