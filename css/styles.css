@@ -37,7 +37,7 @@ p {
 }
 
 header {
-  margin: 0 auto 70px auto;
+  margin: 0 auto 10px auto;
     padding-top: 40px;
     padding-right: 5%;
     padding-left: 5%;
@@ -63,10 +63,6 @@ footer {
 
 .nav-container a {
     position: relative;
-}
-
-.nav-container a:hover .asterisk {
-    display: inline;
 }
 
 .asterisk {
@@ -115,6 +111,10 @@ footer {
         height: 15px;
     }
     
+    .nav-container a:hover .asterisk {
+        display: inline;
+    }
+    
     .h2-asterisk {
         position: absolute;
         height: 20px;
@@ -123,11 +123,20 @@ footer {
         padding-left: 10px;
         padding-top: 3px;
     }
+    
+    .square-img {
+      float: left;
+      width: 340px;
+    }
+    
+    .first {
+      padding-top: 40px;
+    }
 }
 
 @media (min-width: 440px) {
     .main-text {
-        width: 380px;
+        width: 340px;
         margin-left: auto;
     }
     
