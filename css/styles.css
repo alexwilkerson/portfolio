@@ -53,10 +53,20 @@ header {
 }
 
 footer {
-  text-align: right;
-    padding-right: 5%;
+    margin-top: 100px;
+    text-align: right;
     font-size: .8em;
     font-weight: bold;
+    padding-right: 5%;
+    
+}
+
+footer p {
+    text-indent: 0;
+}
+
+footer i {
+    color: #fe9f97;
 }
 
 .fixed-nav {
@@ -195,5 +205,11 @@ figcaption {
         -webkit-justify-content: space-between;
         justify-content: space-between;
     }
+    
+    footer {
+        padding: 0;
+    margin-top: 150px;
+    text-align: center;
+}
     
 }
