@@ -142,6 +142,29 @@ figcaption {
         width: 340px;
     }
     
+    @keyframes throb {
+        0% {
+            color: #fe9f97;
+        }
+        
+        100% {
+            color: #f4544d;
+            transform: scale(1.1);
+            transform: 
+        }
+    }
+    
+    .heart { /* there is a shorthand for this */
+        animation-name: throb;
+        animation-duration: 0.5s;
+        animation-timing-function: ease-out;
+        animation-delay: 0;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
+        animation-fill-mode: none;
+        animation-play-state: running;
+    }
+    
 }
 
 @media (min-width: 769px) {
