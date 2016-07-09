@@ -104,8 +104,16 @@ figure {
     transition: all 0.15s;
 }
 
-figure:hover {
+figure:hover, figure:focus {
     transform: scale(1.05);
+}
+
+.arrow {
+    transition: all 0.15s;
+}
+
+figure:hover .arrow, figure:focus .arrow {
+    transform: rotate(-90deg);
 }
 
 figcaption {
@@ -172,7 +180,8 @@ figcaption {
         height: 15px;
     }
     
-    .nav-container a:hover .asterisk {
+    .nav-container a:hover .asterisk,
+    .nav-container a:focus .asterisk{
         display: inline;
     }
     
