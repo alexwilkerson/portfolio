@@ -142,27 +142,26 @@ figcaption {
         width: 340px;
     }
     
-    @keyframes throb {
+    @-webkit-keyframes throb {
         0% {
             color: #fe9f97;
         }
         
         100% {
             color: #f47973;
-            transform: scale(1.1);
-            transform: 
+            -webkit-transform: scale(1.1);
         }
     }
     
     .heart { /* there is a shorthand for this */
-        animation-name: throb;
-        animation-duration: 0.5s;
-        animation-timing-function: ease-out;
-        animation-delay: 0;
-        animation-direction: alternate;
-        animation-iteration-count: infinite;
-        animation-fill-mode: none;
-        animation-play-state: running;
+        -webkit-animation-name: throb;
+        -webkit-animation-duration: 0.5s;
+        -webkit-animation-timing-function: ease-out;
+        -webkit-animation-delay: 0;
+        -webkit-animation-direction: alternate;
+        -webkit-animation-iteration-count: infinite;
+        -webkit-animation-fill-mode: none;
+        -webkit-animation-play-state: running;
     }
     
 }
