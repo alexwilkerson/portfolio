@@ -16,6 +16,11 @@ line-height: 1.6em;
   text-align: justify;
 }
 
+.thumbnail {
+    width: 340px;
+    border: solid 5px black;
+}
+
 h2 {
     margin-top: -30px;
     padding-top: 30px;
