@@ -183,6 +183,7 @@ figcaption {
     
     .thumbnail {
         width: 340px;
+        border: solid 5px black;
     }
     
     .contact {
